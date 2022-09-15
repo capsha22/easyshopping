@@ -1,0 +1,30 @@
+.cart{
+    background-color: rgb(244, 235, 235);
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-left: 100px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.cartproduct{
+    background-color: rgb(159, 232, 232);
+    text-align: center;
+    margin-left: 50px;
+    color: rgb(3, 26, 24);
+    font-size: 20px;
+    height: 50px;
+}
+.check{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+body{
+    /* background: url(../../../assets/images/addpro.jpg); */
+    margin-top: 100px;
+}
+.main-content{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

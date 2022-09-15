@@ -1,0 +1,32 @@
+button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  /* background-color: #000; */
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  font-size: 15px;
+  margin-left: 25x;
+    margin-right: 20px;
+  
+
+}
+.card-text{
+  font-family: 'Times New Roman';
+  color: rgb(6, 7, 8);
+  text-align: center;
+  font-size: 22px;
+}
+
+/* .con{
+  color: rgb(251, 248, 246);
+  font-family:'Courier New', Courier, monospace;
+  font-size:30px ;
+  text-align: center;
+  background: #ece8e6;
+  height: 150px;
+  width: 100%;
+
+} */

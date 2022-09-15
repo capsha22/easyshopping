@@ -1,0 +1,38 @@
+
+<body>
+    <div class="prod">
+    <div class="card">
+    <div class="container-fluid">
+      <h2 class="zone">Easy Shopping</h2>
+        <h1  style="color: rgb(255, 255, 255); size: 60px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="head">Login</h1>
+        <form [formGroup]="loginForm" (ngSubmit)="loggingin()"  novalidate>
+          <div class="form-group">
+            <label style="margin-left:15px ;">Email</label>
+            <input type="text" placeholder="Enter Email.." [class.is-invalid]="email!.invalid && email!.touched" formControlName="email" class="form-control">
+            <div *ngIf="email!.invalid && email!.touched">
+              <small class="text-danger" *ngIf="email!.errors?.required">Email is required!</small>
+            </div>
+          </div>
+          <div class="form-group">
+            <label style="margin-left:15px ;">Password</label>
+            <input type="password" placeholder="Enter Password.." [class.is-invalid]="password!.invalid && password!.touched" formControlName="password" class="form-control">
+            <div *ngIf="password!.invalid && password!.touched">
+              <small class="text-danger" *ngIf="password!.errors?.required"> Password is required</small>
+            </div>
+          </div>
+          <div class="log">
+         <button style="background-color: rgb(253, 253, 253);color:rgb(230, 8, 250);width:100px;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="btn btn-success" [disabled]="loginForm.invalid" type="submit">Login</button>
+         <p class="text-danger" *ngIf="!loggedIn">Invalid Credentials...</p>
+        </div>
+        </form>
+        <p style="color:white; text-decoration: none;">Don't have an account? <a style="color:rgb(0, 29, 250); text-decoration: none;" routerLink="/register">Signup</a></p>
+        <!-- <div class="git">
+        <p>Or Signin with</p>
+        <p><button type="button" class="btn btn-danger btn-git"><i class="fa fa-github left"></i> Github</button></p>
+    </div> -->
+        </div>
+      </div>
+    </div>
+</body>
+    
+    

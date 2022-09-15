@@ -1,0 +1,47 @@
+.profile{
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 420px;
+
+
+}
+button{
+    margin-right: 18rem;
+    border-radius: 30px;
+    background-color: aqua;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.prod{
+    margin-left: 35%;
+    margin-right: 20%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 400px;
+    height: 800px;
+    
+}
+.card{
+    border-color: cornflowerblue;
+    background: url(../../../assets/images/shop.jpg);
+    
+}
+
+.form-group{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(238, 234, 241);
+}
+.head{
+    color: rgb(27, 27, 184);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+h1{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+}
